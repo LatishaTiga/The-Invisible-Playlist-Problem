@@ -1,6 +1,3 @@
-# The-Invisible-Playlist-Problem
-Exploratory analysis of the Spotify Million Playlist Dataset examining how playlist metadata, naming patterns, emotional signals, and audio features vary across popularity levels. Uses random and stratified downsampling and audio feature extraction from YouTube previews to compare playlist structure and track sequencing across popularity buckets.
-
 # The Invisible Playlist Problem
 
 This repository contains an exploratory data analysis of the Spotify Million Playlist Dataset (MPD), examining how playlist metadata, naming patterns, emotional signals, and audio features vary across playlist popularity levels.
@@ -10,7 +7,8 @@ The project combines large-scale metadata analysis with stratified downsampling 
 ---
 
 ## Project Structure
-`The-Invisible-Playlist-Problem/
+```
+The-Invisible-Playlist-Problem/
 │
 ├── notebooks/
 │ ├── 01_all_playlists_metadata.ipynb
@@ -35,7 +33,8 @@ The project combines large-scale metadata analysis with stratified downsampling 
 │ └── figures/
 │
 ├── .gitignore
-└── README.md`
+└── README.md
+```
 
 ---
 
