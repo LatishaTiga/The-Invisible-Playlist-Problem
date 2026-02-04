@@ -70,7 +70,7 @@ Used to compare playlist structure and sequencing behavior across popularity lev
 
 ### 4. Audio Feature Visualization (`04_audio_feature_visualization.ipynb`)
 
-Extracts audio features from YouTube preview clips for a downsampled subset of playlists and visualizes:
+Extracts audio features from YouTube preview clips due to the deprecation of Spotify's API for a downsampled subset of playlists and visualizes:
 
 - Tempo
 - Energy
@@ -84,7 +84,7 @@ Extracts audio features from YouTube preview clips for a downsampled subset of p
 Contains the pipeline used to:
 
 - Search and retrieve YouTube previews for tracks
-- Extract audio features from short audio segments
+- Extract audio features from short audio segments using librosa
 - Save processed feature outputs for downstream analysis
 
 This pipeline is modular and can be reused independently of the notebooks.
